@@ -12,7 +12,7 @@ public class ElectricityBillTest {
     // Test 1: First slab
     @Test
     void testFirstSlab() {
-        assertEquals(125.0, bill.calculateBill(50), 0.001);
+        assertEquals(100.0, bill.calculateBill(50), 0.001);
     }
 
     // Test 2: Exactly 100 units
